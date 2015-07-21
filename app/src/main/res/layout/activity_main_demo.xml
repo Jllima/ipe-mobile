@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${sesec.fortaleza.ce.gov.br.ipe.fragment}.${AtendimentoFragment}">
+
+
+
+    <TextView
+        android:id="@+id/um"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exemplo Volley Android" />
+
+    <View
+        android:id="@+id/dois"
+        android:layout_below="@id/um"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ddd" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_below="@id/dois"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="*Email"
+        android:inputType="textEmailAddress"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_below="@id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="*Password"
+        android:inputType="textPassword"
+        android:text="" />
+
+    <View
+        android:id="@+id/tres"
+        android:layout_below="@id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ddd" />
+    <!--
+    <Button
+        android:id="@+id/jsonObject"
+        android:layout_below="@id/tres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar - JsonObjectRequest"
+        android:onClick="callByJsonObjectRequest"
+        android:layout_marginBottom="5dp" />
+
+    <Button
+        android:id="@+id/jsonArray"
+        android:layout_below="@+id/jsonObject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar - JsonArrayRequest"
+        android:onClick="callByJsonArrayRequest"
+        android:layout_marginBottom="5dp" />
+    -->
+    <Button
+        android:id="@+id/jsonString"
+        android:layout_below="@id/tres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar - StringRequest"
+        android:onClick="callByStringRequest"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

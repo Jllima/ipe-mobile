@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ipê</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_search">Pesquisar</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Fechar</string>
+
+    <string name="hello_world">Olá Mundo!</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Ocorrências</string>
+    <string name="nav_item_notifications">Mapa</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+    </string-array>
+
+    <!--dialogs-->
+    <string name="dialog_progress">Aguarde..</string>
+    <string name="dialog_alert_title">Atenção!</string>
+    <string name="dialog_alert_AuthFailureError">Acesso negado!</string>
+    <string name="dialog_alert_no_connection">Sem acesso a internet!</string>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+
+</resources>
